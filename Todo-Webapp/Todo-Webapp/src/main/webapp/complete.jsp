@@ -33,7 +33,8 @@
 					<th style="width: 5%">ID</th>
 					<th style="width: 60%" >Task Name</th>
 					<th style="width: 15%">Due Date</th>
-					<th style="width: 20%">Completed Date</th>
+					<th style="width: 15%">Completed Date</th>
+					<th style="width: 5%">Remove</th>
 				</tr>
 				
 				<%TodoDao dao=new TodoDao(); %>
@@ -51,6 +52,7 @@
 					<td  ><%= task.getTask() %></td>
 					<td class="data-main"><%= task.getDate() %></td>
 					<td class="data-main"><%= task.getCdate()  %></td>
+					<td> <a href="ctaskDelete?id=<%=task.getId()%> "><input class="br-red" type="button" value="Delete"></a></td>
 					
 					
 				</tr>

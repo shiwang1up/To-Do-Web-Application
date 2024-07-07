@@ -24,7 +24,7 @@
 			<label class="input" for="name">Add new task</label><br>
 			<form action="addTask">
 				<input class="input-field" placeholder="Task name" type="text" name="name" id="name"> 
-					<input type="date" name="date" id="date"> 
+					<input type="date" name="date" id="date" required> 
 					
 					<input type="submit" class="br-red" value="Add Task">
 			</form>

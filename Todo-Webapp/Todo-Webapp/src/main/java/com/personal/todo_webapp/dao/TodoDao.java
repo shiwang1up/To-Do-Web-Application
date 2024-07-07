@@ -16,6 +16,7 @@ public class TodoDao {
 	private final String DISPLAY_ALL_COMPLETED_TASKS= "select * from ctasks";
 	private final String DELETE_TASK_BY_ID_QUERY= "delete from tasks where id=?";
 	private final String GET_TASK_BY_ID_QUERY= "select * from tasks where id=?";
+	private final String DELETE_CTASK_BY_ID_QUERY="delete from ctasks where id=?";
 	private final String INSERT_INTO_CDB_QUERY = "insert into ctasks(id,name,date,cdate) values(?,?,?,?)";
 	
 	Connection connection=TodoConnection.getConnection();
@@ -105,7 +106,7 @@ public class TodoDao {
 	
 	public int updateTaskByIdDao(TodoDto task) {
 
-		String updateQuery = "update task set name=?,date=? where id=?";
+		String updateQuery = "update tasks set name=?,date=? where id=?";
 
 		PreparedStatement ps;
 		try {
@@ -166,6 +167,21 @@ public class TodoDao {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return null;
+		}
+	}
+	
+	
+	
+	public int deleteCtaskDao(int id) {
+		try {
+			ps = connection.prepareStatement(DELETE_CTASK_BY_ID_QUERY);
+			ps.setInt(1, id);
+			ps.executeUpdate();
+			return 1;
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return 0;
 		}
 	}
 	
