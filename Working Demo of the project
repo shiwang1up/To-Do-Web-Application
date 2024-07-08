@@ -1,0 +1,36 @@
+Technologies Used:
+
+Frontend-> JSP (JavaServer Pages), CSS
+Backend-> Java
+Database Connectivity-> JDBC
+Database-> MySQL
+Frameworks & IDE-> Servlets API, Eclipse EE
+Database Tools-> JDBC, MySQL Workbench
+
+Project Overview:
+Developed a robust To-Do Web Application designed to enhance productivity and task management. The application offers a user-friendly interface for managing tasks efficiently, with the ability to perform CRUD (Create, Read, Update, Delete) operations and mark tasks as completed.
+
+Key Features:
+
+Task Management-> Users can add tasks with specific due dates via the frontend interface.
+
+CRUD Operations-> Users can create new tasks, update existing tasks, and delete tasks as needed.
+
+Task Display-> All tasks are dynamically displayed and updated, reflecting changes in real-time.
+
+Mark as Completed-> Tasks can be marked as completed, which automatically moves them to a separate 'Completed Tasks' table with an automatic timestamp indicating the completion date.
+Completed Tasks Management-> Users have the option to delete tasks from the completed tasks list as well.
+
+Technical Implementation:
+
+Frontend-> The user interface was developed using JSP and CSS, ensuring a responsive and interactive experience for users.
+Backend-> Java was used to handle business logic, with Servlets managing the HTTP requests and responses.
+Database-> MySQL served as the database management system, with JDBC facilitating communication between the Java application and the database.
+Development Environment-> Eclipse EE was utilized for development, and MySQL Workbench was employed for database design and management.
+
+This project demonstrates my ability to develop full-stack web applications, showcasing skills in both frontend and backend technologies, as well as database management. Through this project, I have honed my skills in Java, JSP, Servlets, and MySQL, and gained valuable experience in creating efficient and user-friendly web applications.Technologies Used: Frontend-> JSP (JavaServer Pages), CSS Backend-> Java Database Connectivity-> JDBC Database-> MySQL Frameworks & IDE-> Servlets API, Eclipse EE Database Tools-> JDBC, MySQL Workbench Project Overview: Developed a robust To-Do Web Application designed to enhance productivity and task management. The application offers a user-friendly interface for managing tasks efficiently, with the ability to perform CRUD (Create, Read, Update, Delete) operations and mark tasks as completed. Key Features: Task Management-> Users can add tasks with specific due dates via the frontend interface. CRUD Operations-> Users can create new tasks, update existing tasks, and delete tasks as needed. Task Display-> All tasks are dynamically displayed and updated, reflecting changes in real-time. Mark as Completed-> Tasks can be marked as completed, which automatically moves them to a separate 'Completed Tasks' table with an automatic timestamp indicating the completion date. Completed Tasks Management-> Users have the option to delete tasks from the completed tasks list as well. Technical Implementation: Frontend-> The user interface was developed using JSP and CSS, ensuring a responsive and interactive experience for users. Backend-> Java was used to handle business logic, with Servlets managing the HTTP requests and responses. Database-> MySQL served as the database management system, with JDBC facilitating communication between the Java application and the database. Development Environment-> Eclipse EE was utilized for development, and MySQL Workbench was employed for database design and management. This project demonstrates my ability to develop full-stack web applications, showcasing skills in both frontend and backend technologies, as well as database management. Through this project, I have honed my skills in Java, JSP, Servlets, and MySQL, and gained valuable experience in creating efficient and user-friendly web applications.
+Skills: Core Java · Java Database Connectivity (JDBC) · Servlets API · Cascading Style Sheets (CSS) · JavaServer Pages (JSP) · Git · GitHub · Eclipse ide · Mysql Workbench
+
+
+
+https://www.linkedin.com/posts/shiwang-srivastava_im-happy-to-share-this-todo-web-application-activity-7215683296876220416-6XzT?utm_source=share&utm_medium=member_desktop
